@@ -1,7 +1,7 @@
-kscreenshot
+dyscreenshot
 ===========
 
-这是一款实用的web前端截图工具。
+web前端截图工具。借鉴了kscreenshot
 
 ![](https://github.com/kejiacheng/img/blob/master/kscreenshot/screenshot1.gif)
 ![](https://github.com/kejiacheng/img/blob/master/kscreenshot/screenshot2.gif)
@@ -9,7 +9,7 @@ kscreenshot
 
 npm:
 ```sh
-npm install kscreenshot --save
+npm install dyscreenshot --save
 ```
 
 ### 功能
@@ -22,7 +22,7 @@ npm install kscreenshot --save
 
 ### 使用
 ```js
-import kscreenshot from 'kscreenshot'
+import dyscreenshot from 'dyscreenshot'
 
 //65指键盘中的A
 new kscreenshot(

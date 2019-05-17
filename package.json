@@ -1,6 +1,6 @@
 {
   "name": "dyscreenshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/kss.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/FridayDai/kscreenshot.git"
   },
-  "author": "",
+  "author": "YiDai",
   "license": "ISC",
   "homepage": "https://github.com/FridayDai/kscreenshot#readme",
   "devDependencies": {
