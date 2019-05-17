@@ -91,7 +91,12 @@ let kss = (function () {
             const that = this
             document.addEventListener('mouseup', that.cancelDrawingStatus)
             document.addEventListener('contextmenu', that.preventContextMenu)
-            //当不是鼠标左键时立即返回
+            // 当不是鼠标左键时立即返回
+            // 0：主按键被按下，通常指鼠标左键 or the un-initialized state
+            // 1：辅助按键被按下，通常指鼠标滚轮 or the middle button (if present)
+            // 2：次按键被按下，通常指鼠标右键
+            // 3：第四个按钮被按下，通常指浏览器后退按钮
+            // 4：第五个按钮被按下，通常指浏览器的前进按钮
             if (e.button !== 0) {
                 return
             }
