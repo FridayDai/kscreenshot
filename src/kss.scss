@@ -1,7 +1,8 @@
 $baseColor: #488ff9;
 
 .kssBody{
-    cursor: url("./assets/imgs/cursor.ico"), auto; 
+    //cursor: url("./assets/imgs/cursor.ico"), auto;
+    cursor: crosshair;
     user-select: none;
     #kss{
         position: fixed;

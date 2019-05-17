@@ -1,21 +1,19 @@
 {
-  "name": "kscreenshot",
-  "version": "1.2.1",
+  "name": "dyscreenshot",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/kss.js",
   "scripts": {
-    "start": "webpack --mode=production"
+    "start": "webpack --mode=production",
+    "dev": "webpack --mode=development"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kejiacheng/kss.git"
+    "url": "https://github.com/FridayDai/kscreenshot.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kejiacheng/kss/issues"
-  },
-  "homepage": "https://github.com/kejiacheng/kss#readme",
+  "homepage": "https://github.com/FridayDai/kscreenshot#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.4",
