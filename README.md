@@ -25,7 +25,7 @@ npm install dyscreenshot --save
 import dyscreenshot from 'dyscreenshot'
 
 //65指键盘中的A
-new kscreenshot(
+new dyscreenshot(
     {
         key: 65 
     }
